@@ -1,0 +1,9 @@
+(.venv) u11300412@lab602-16:~/aulaeng-github/lab-cadastro-salas$ python -m pip install -r requirements-dev.txt
+python -m pytest -q
+Requirement already satisfied: pytest==8.3.5 in ./test/.venv/lib/python3.12/site-packages (from -r requirements-dev.txt (line 1)) (8.3.5)
+Requirement already satisfied: iniconfig in ./test/.venv/lib/python3.12/site-packages (from pytest==8.3.5->-r requirements-dev.txt (line 1)) (2.3.1)
+Requirement already satisfied: packaging in ./test/.venv/lib/python3.12/site-packages (from pytest==8.3.5->-r requirements-dev.txt (line 1)) (26.3)
+Requirement already satisfied: pluggy<2,>=1.5 in ./test/.venv/lib/python3.12/site-packages (from pytest==8.3.5->-r requirements-dev.txt (line 1)) (1.7.0)
+....                                                                                                                                               [100%]
+4 passed in 0.02s
+(.venv) u11300412@lab602-16:~/aulaeng-github/lab-cadastro-salas$ 
